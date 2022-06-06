@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Lezione HTML</title>
+	<style>
+		label {
+			display: block
+		}
+	</style>
+</head>
+
+<body>
+	<h1>Iscrizione</h1>
+	<form action="">
+		<div>
+			<h3>Dati anagrafici</h3>
+		<label for="fname">Nome</label>
+		<input type="text" name="fname" id="fname">
+		<label for="sname">Cognome</label>
+		<input type="text" name="sname" id="sname">
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password">
+		<label for="born">Seleziona la tua data di nascita</label>
+		<input type="date" name="born" id="born">
+		<label for="number">Numero di telefono</label>
+		<input type="text" name="number" id="number">
+		<label for="email">Email</label>
+		<input type="text" name="email" id="email">
+		<label for="piani">Scegli un abbonamento</label>
+		<select name="piani" id="piani">
+			<option value="free">Free</option>
+			<optgroup label="Offerte"></optgroup>
+			<option value="super">Super</option>
+			<option value="mega">Mega</option>
+			<option value="ultra">Ultra</option>
+			</optgroup>
+		</select>
+		<label for="vantaggi">Seleziona i vantaggi PRO</label>
+		<input type="checkbox" name="vantaggi" id="vantaggi">
+	</div>
+	<div>
+		<h3>Dati del pagamento</h3>
+		<label for="cartadicredito">Inserisci i dati della tua carta di credito</label>
+		<input type="text" name="cartadicredito" id="cartadicredito">
+		<label for="expiry">Scadenza</label>
+		<input type="date" name="expiry" id="expiry">
+		<label for="cvc">CVC</label>
+		<input type="text" name="cvc" id="cvc">
+		<label for="billing">Indirizzo di fatturazione</label>
+		<input type="text" name="billing" id="billing">
+	</div>
+
+	</form>
+
+</body>
+
+</html>
